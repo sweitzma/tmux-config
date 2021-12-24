@@ -5,7 +5,7 @@ unbind '"'
 unbind %
 
 # Easy reloading
-bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
+bind r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
 
 # Mouse on
 set -g mode-mouse on
