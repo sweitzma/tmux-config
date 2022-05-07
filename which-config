@@ -1,0 +1,7 @@
+#!/bin/bash
+
+TMUX_PRESENT=$(which tmux)
+TMUX_MAJOR=$(tmux -V | sed 's/[.]/ /' | awk '{print $2}')
+TMUX_MINOR=$(tmux -V | sed 's/[.]/ /' | awk '{print $3}')
+
+echo "tmux.conf.v${TMUX_MAJOR}.x"
